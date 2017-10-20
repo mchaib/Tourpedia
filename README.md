@@ -1,0 +1,2 @@
+# Tourpedia
+TourPedia is the Wikipedia of Tourism. It contains information about accommodations, restaurants, points of interest and attractions of different places in Europe. At the moment only eight places are covered: Amsterdam, Barcelona, Berlin, Dubai, London, Paris, Rome and Tuscany. However, the idea is to extend the service to all the world.  Data are extracted from four social media: Facebook, Foursquare, Google Places and Booking. They were elaborated and integrated in order to build a unique catalogue.
