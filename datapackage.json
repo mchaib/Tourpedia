@@ -1,0 +1,83 @@
+{
+  "sources": [
+    {
+      "name": "Andrea Marchetti", 
+      "email": "andrea.marchetti@iit.cnr.it"
+    }
+  ], 
+  "extras": {
+    "number of Places": "492,888"
+  }, 
+  "description": "TourPedia is the Wikipedia of Tourism. It contains information about accommodations, restaurants, points of interest and attractions of different places in Europe. At the moment only eight places are covered: Amsterdam, Barcelona, Berlin, Dubai, London, Paris, Rome and Tuscany. However, the idea is to extend the service to all the world.\r\n\r\nData are extracted from four social media: Facebook, Foursquare, Google Places and Booking. They were elaborated and integrated in order to build a unique catalogue.", 
+  "license": {
+    "url": "http://www.opendefinition.org/licenses/cc-zero", 
+    "type": "cc-zero", 
+    "title": "Creative Commons CCZero"
+  }, 
+  "title": "Tourpedia", 
+  "keywords": [
+    "accommodations", 
+    "attractions", 
+    "lod", 
+    "points of interest", 
+    "restaurants", 
+    "social media", 
+    "tourism"
+  ], 
+  "author": {
+    "name": "Angelica Lo Duca", 
+    "email": "angelica.loduca@iit.cnr.it"
+  }, 
+  "resources": [
+    {
+      "url": "http://tour-pedia.org/api", 
+      "title": "Tourpedia Web API", 
+      "description": "The Web API is a service that returns information about Places - defined within this API as accommodations, restaurants, attractions or points of interest - and related Reviews using RESTful requests.", 
+      "name": "tourpedia-web-api", 
+      "format": "api"
+    }, 
+    {
+      "url": "http://tour-pedia.org/sparql", 
+      "title": "Tourpedia SPARQL endpoint", 
+      "description": "SPARQL endpoint of the dataset", 
+      "name": "tourpedia-sparql-endpoint", 
+      "format": "api/sparql"
+    }, 
+    {
+      "url": "http://tour-pedia.org/api/getPlaces?location=Amsterdam&name=Van%20Gogh", 
+      "title": "Link to an example of the use of Web API", 
+      "description": "This example searches for all the places from Amsterdam with a name containing \u00abVan Gogh\u00bb", 
+      "name": "link-to-an-example-of-the-use-of-web-api", 
+      "format": "JSON"
+    }, 
+    {
+      "url": "http://tour-pedia.org/", 
+      "title": "Tourpedia Web site", 
+      "description": "This is the Tourpedia main page.", 
+      "name": "tourpedia-web-site", 
+      "format": "website"
+    }, 
+    {
+      "url": "http://tour-pedia.org/resource/attr-22819", 
+      "title": "Example of a RDF resource", 
+      "description": "This example shows \"Piazza Navona\" in Roma.", 
+      "name": "example-of-a-rdf-resource", 
+      "format": "example/rdf+xml"
+    }, 
+    {
+      "url": "http://tour-pedia.org/download/void.ttl", 
+      "title": "VoID description", 
+      "description": "This is the VoID description of the Tourpedia Linked Dataset", 
+      "name": "void-description", 
+      "format": "meta/void"
+    }, 
+    {
+      "url": "https://groups.google.com/forum/?tourpedia#!forum/tourpedia", 
+      "title": "Tourpedia Community", 
+      "description": "This is the Mailing list associated to the Tourpedia Community.", 
+      "name": "tourpedia-community", 
+      "format": "email"
+    }
+  ], 
+  "name": "tourpedia"
+}
